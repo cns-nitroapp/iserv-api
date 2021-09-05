@@ -96,8 +96,6 @@ def endpoint(id, title, description, start, end, linkarray):
     end_date_day = end_date[1]
     end_date = end_date[2] + '-' + end_date[0] + '-' + end_date[1]
 
-    print(linkarray)
-
     if (linkarray == []):
         data = {
             'authorization': str('demo'),
